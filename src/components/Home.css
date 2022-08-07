@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;800;900&display=swap');
+.home-background{
+    height: 100vh;
+    width:100%;
+    background-image: linear-gradient(to bottom, black 0%, #29323c 100%);
+    color:white;
+    padding:140px 30px 20px 20px;
+}
+.intro-text-1{
+    font-family:poppins;
+    font-weight:500;
+    font-size:17px;
+    color:hsl(184, 9%, 62%);
+}
+.intro-text-2{
+    font-family:poppins;
+    font-weight:800;
+    font-size:40px;
+    letter-spacing: 1px;
+}
+.intro-paragraph{
+    font-family:poppins;
+    font-size:14px;
+    color:hsl(184, 9%, 62%);
+   
+}
+.intro-buttons{
+    display:flex;
+    flex-direction: column;
+    width: 130px;
+    margin-top:40px;
+}
+.btn-1{
+    background:hsl(130, 91%, 78%);
+    padding:11px 15px 8px 15px;
+    border-radius: 10px;
+    text-decoration:none;
+    color:rgba(1, 0, 41, 1);
+    font-family:poppins;
+    font-size:15px;
+    font-weight:500;
+}
+  
+.btn-2{
+    position:relative;
+    top:25px;
+    border:2px solid hsl(130, 91%, 78%);
+    text-decoration:none;
+    color:white;
+    border-radius: 10px;
+    padding:8px 13px 8px 13px;
+    display: block;
+
+}
+.btn-1:hover{
+    text-decoration: none;
+    
+    color:rgba(1, 0, 41, 1);
+}
+.btn-2:hover{
+    text-decoration: none;
+    color:white;
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+    .home-background{
+        display:flex;
+        justify-content: space-between;
+        padding:120px 180px 60px 0px ;
+    }
+    .introduction{
+        padding: 30px 50px 50px 50px;
+    }
+    .image-1{
+        width:300px;
+        height: 300px;
+        margin-top: 50px;
+    }
+    .intro-text-2{
+        font-size:90px;
+    }
+    .intro-buttons{
+        display:flex;
+        flex-direction: row;
+        justify-content:space-between;
+        width:280px;
+    }
+    .btn-2{
+        transform: translateY(-25px);
+    }
+}   
+@media only screen and (min-width:769px) and (max-width:1024px){
+   .home-background{
+    padding:100px 60px 60px 30px ;
+   }
+}
+@media only screen and (min-width:1025px) and (max-width:1440px){
+   .home-background{
+    padding:100px 200px 60px 120px ;
+   }
+   .image-1{
+    width:360px!important;
+    height: 360px!important;
+   }
+   .intro-paragraph{
+    padding-right: 140px;
+  }
+}  
+
+@media only screen and (min-width:769px) and (max-width:3000px){
+    .home-background{
+        display:flex;
+        justify-content: space-between;
+    }
+    .introduction{
+        padding: 30px 50px 50px 50px;
+    }
+    .image-1{
+        width:300px;
+        height: 300px;
+        margin-top: 50px;
+    }
+    .intro-text-2{
+        font-size:80px;
+    }
+    .intro-buttons{
+        display:flex;
+        flex-direction: row;
+        justify-content:space-between;
+        width:270px;
+    }
+    .btn-2{
+        transform: translateY(-25px);
+    }
+}
+@media only screen and (min-width:2000px) and (max-width:3000px){
+    .home-background{
+        padding:100px 750px 60px 700px ;
+       }
+       .image-1{
+        width:360px!important;
+        height: 360px!important;
+       }
+       .intro-paragraph{
+        padding-right: 140px;
+      }
+}  

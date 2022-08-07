@@ -1,0 +1,70 @@
+.project-background{
+    padding:90px 40px 90px 40px;
+    background:#24252a;
+    font-family: poppins;
+}
+.project-title-1{
+    color:white;
+}
+.project-title-1:after{
+    position:relative;
+    left:35%;
+    content: "";
+    display:block;
+    width: 30%; 
+    padding-top: 20px; 
+    border-bottom: 2px solid hsl(130, 91%, 78%); 
+}
+.project-title-2{
+    color:hsl(184, 9%, 62%);
+    padding-top: 20px;
+}
+.card{
+    margin-top:40px;
+    background-color: hsl(0, 0%, 13%);
+    color:white;
+}
+.card-body{
+    padding:30px;
+}
+.card-text{
+    color:hsl(184, 9%, 62%);
+    font-weight: 400;
+}
+.project-btn{
+    background-color:hsl(130, 91%, 78%) ;
+}
+@media only screen and (min-width:468px) and (max-width:768px){
+   .card-list{
+    padding-left: 50px;
+    padding-right:50px;
+   }
+} 
+@media only screen and (min-width:769px) and (max-width:1024px){
+    .card-list{
+        padding-left: 50px;
+        padding-right:50px;
+       }
+}
+@media only screen and (min-width:1025px) and (max-width:1440px){
+    .card-list{
+        padding-left: 120px;
+        padding-right:120px;
+        grid-gap: 3rem!important;
+       }
+}   
+@media only screen and (min-width:769px) and (max-width:3000px){
+   .card-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: row dense;
+    grid-gap: 1.5rem;
+   }
+}   
+@media only screen and (min-width:2000px) and (max-width:3000px){
+    .card-list{
+        padding-left: 700px;
+        padding-right:700px;
+        grid-gap: 3rem!important;
+       }
+}   

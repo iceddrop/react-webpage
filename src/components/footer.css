@@ -1,0 +1,57 @@
+.footer-section{
+    padding:65px 35px 35px 35px;
+    font-family: poppins;
+    background-image: linear-gradient(to bottom, black 0%, #29323c 100%);
+    color: white;
+    height: 250px;
+  
+}
+.socials{
+    color:hsl(130, 91%, 78%);
+    padding: 5px 0px;
+}
+.icon{
+    border: 2px solid hsl(130, 91%, 78%);
+    border-radius: 50%;
+    padding: 20px;
+}
+.gmail{
+    color:hsl(130, 91%, 78%);
+    font-weight: 300;
+    padding: 5px 0px;
+    text-decoration: none;
+}
+.gmail:hover{
+    color:hsl(130, 91%, 78%)
+}
+.global-class-name{
+    margin-left: 10px;
+    font-size: 30px;
+    
+}
+@media only screen and (min-width:319px) and (max-width:425px){
+    .footer-section{
+        padding-bottom: 200px!important;
+    }
+}   
+@media only screen and (min-width:481px) and (max-width:768px){
+    .footer-section{
+        padding-left: 100px;
+    }
+}  
+@media only screen and (min-width:769px) and (max-width:1024px){
+    .footer-section{
+        padding-left: 100px;
+    }
+}   
+@media only screen and (min-width:1200px) and (max-width:1440px){
+    .footer-section{
+        padding-left: 150px;
+    }
+} 
+@media only screen and (min-width:2000px) and (max-width:3000px){
+    .footer-section{
+        padding-left: 750px;
+        padding-right: 200px;
+    }
+}   

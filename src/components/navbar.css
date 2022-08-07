@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+*{
+    font-size:1rem;
+}
+
+.nav-list{
+    text-align:center;
+    padding-top:10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.nav-item{
+    font-family:poppins;
+    font-weight:400;
+}
+.nav-link{
+    letter-spacing:1px;
+    color: white;
+}
+.nav-link:hover{
+    color:white;
+}
+.hamburger{
+    color:white;
+}
+.navbar-brand{
+    color:hsl(130, 91%, 78%);
+    font-family: Russo One;
+    font-size:30px;
+    transform: rotate(15deg);
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+    .nav-list{
+        padding-left:130px;
+    
+    }
+    .navbar-nav{
+        margin-left:15px;
+    }
+    .nav-item{
+        padding-left:8px;
+    
+    }
+    .container-fluid{
+        padding-left:35px;
+    }
+} 
+@media only screen and (min-width:769px) and (max-width:1024px){
+    .nav-list{
+        padding-left:250px;
+    
+    }
+    .container-fluid{
+        padding-left: 80px!important;
+    }
+} 
+@media only screen and (min-width:1025px) and (max-width:1440px){
+    .nav-list{
+        padding-left:500px;
+    }
+}   
+@media only screen and (min-width:1200px) and (max-width:1340px){
+    .nav-list{
+        padding-left:400px;
+    }
+}  
+@media only screen and (min-width:769px) and (max-width:3000px){
+    .navbar-nav{
+        margin-left:35px;
+    }
+    .nav-item{
+        padding-left:15px;
+    }
+    .container-fluid{
+        padding-left: 170px;
+    }
+
+}
+@media only screen and (min-width:2000px) and (max-width:3000px){
+    .navbar{
+        padding-left:700px;
+        padding-right:500px;
+    }
+    .container-fluid{
+        padding-left: 50px;
+    }
+    .nav-list{
+        padding-left:500px;
+    }
+}    
