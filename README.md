@@ -3,7 +3,7 @@ Portfolio webpage developed on react
 
 ![whatever](https://user-images.githubusercontent.com/93996532/185508039-b0c87fa9-d838-4a3a-8ee3-e27a0960445c.png)
 
-### Tools used:
+### Technologies used:
 ![React](https://a11ybadges.com/badge?logo=react)
  ![Swiper](https://a11ybadges.com/badge?logo=swiper)
   ![bootstrap](https://a11ybadges.com/badge?logo=bootstrap)
